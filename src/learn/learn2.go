@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	var first, second, third string
-	first, second, third = "satu", "dua", "tiga"
+	var fourth, fifth, sixth string = "empat", "lima", "enam"
+	seventh, eight, ninth := "tujuh", "delapan", "sembilan"
 	
-	fmt.Printf("%s %s %s!\n", first, second, third)
+	fmt.Printf("%s %s %s!\n", fourth, fifth, sixth)
+	fmt.Printf("%s %s %s!\n", seventh, eight, ninth)
 }
