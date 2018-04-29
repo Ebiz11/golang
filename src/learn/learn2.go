@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var firstName string = "Lustria"
-	lastName := "Ebiz"
+	var first, second, third string
+	first, second, third = "satu", "dua", "tiga"
 	
-	fmt.Printf("halo %s %s!\n", firstName, lastName)
+	fmt.Printf("%s %s %s!\n", first, second, third)
 }
